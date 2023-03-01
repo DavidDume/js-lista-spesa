@@ -7,6 +7,31 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    background-color: #caf0f8;
+}
+
+.container {
     margin-top: 50px;
 }
 
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button {
+    border-color: #a2d2ff;
+    background-color: #bde0fe;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.lista {
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #03045e;
+}
